@@ -1,0 +1,6 @@
+framework module Pods_WireUp_Finland {
+  umbrella header "Pods-WireUp Finland-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541CC3F3B2F3508C7AC7A5BB /* Pods_WireUp_FinlandUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A96A7D03D659310BA603349 /* Pods_WireUp_FinlandUITests.framework */; };
+		559C2D21201DD95900A7E053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D20201DD95900A7E053 /* AppDelegate.swift */; };
+		559C2D36201DD95A00A7E053 /* WireUp_FinlandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D35201DD95A00A7E053 /* WireUp_FinlandTests.swift */; };
+		559C2D41201DD95A00A7E053 /* WireUp_FinlandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D40201DD95A00A7E053 /* WireUp_FinlandUITests.swift */; };
+		559C2D50201DDA3D00A7E053 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 559C2D4F201DDA3D00A7E053 /* GoogleService-Info.plist */; };
+		559C2D58201DDB9300A7E053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559C2D57201DDB9300A7E053 /* Assets.xcassets */; };
+		559C2D5A201DDBBF00A7E053 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D59201DDBBF00A7E053 /* Group.swift */; };
+		559C2D5C201DDBDA00A7E053 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D5B201DDBDA00A7E053 /* Message.swift */; };
+		559C2D5E201DDBFA00A7E053 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D5D201DDBFA00A7E053 /* Task.swift */; };
+		559C2D60201DDC0E00A7E053 /* EndDateTask .swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D5F201DDC0E00A7E053 /* EndDateTask .swift */; };
+		559C2D62201DDC4E00A7E053 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D61201DDC4E00A7E053 /* UIViewExt.swift */; };
+		559C2D64201DDC9700A7E053 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D63201DDC9700A7E053 /* UIViewControllerExt.swift */; };
+		559C2D66201DDCC900A7E053 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D65201DDCC900A7E053 /* Constants.swift */; };
+		559C2D68201DDCE500A7E053 /* SchoolsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D67201DDCE500A7E053 /* SchoolsData.swift */; };
+		559C2D6A201DDCFC00A7E053 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D69201DDCFC00A7E053 /* DataService.swift */; };
+		559C2D6C201DDD1900A7E053 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D6B201DDD1900A7E053 /* AuthService.swift */; };
+		559C2D6E201DDD4100A7E053 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D6D201DDD4100A7E053 /* GradientView.swift */; };
+		559C2D70201DDD6700A7E053 /* BGGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D6F201DDD6700A7E053 /* BGGradientView.swift */; };
+		559C2D72201DDD8C00A7E053 /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D71201DDD8C00A7E053 /* BackgroundGradient.swift */; };
+		559C2D74201DDDB200A7E053 /* BGTellMeMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D73201DDDB200A7E053 /* BGTellMeMore.swift */; };
+		559C2D76201DDDCB00A7E053 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D75201DDDCB00A7E053 /* UserCell.swift */; };
+		559C2D78201DDDE000A7E053 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D77201DDDE000A7E053 /* GroupCell.swift */; };
+		559C2D7A201DDE0300A7E053 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D79201DDE0300A7E053 /* GroupFeedCell.swift */; };
+		559C2D7C201DDE2000A7E053 /* GroupTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D7B201DDE2000A7E053 /* GroupTaskCell.swift */; };
+		559C2D7E201DDE8000A7E053 /* FirstViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D7D201DDE8000A7E053 /* FirstViewVC.swift */; };
+		559C2D80201DDEB600A7E053 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D7F201DDEB600A7E053 /* CreateAccountVC.swift */; };
+		559C2D82201DDEE000A7E053 /* TellMeMoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D81201DDEE000A7E053 /* TellMeMoreVC.swift */; };
+		559C2D84201DDF0200A7E053 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D83201DDF0200A7E053 /* LoginVC.swift */; };
+		559C2D86201DDF2200A7E053 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D85201DDF2200A7E053 /* CreateGroupsVC.swift */; };
+		559C2D88201DDF3900A7E053 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D87201DDF3900A7E053 /* MenuVC.swift */; };
+		559C2D8A201DDF5100A7E053 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D89201DDF5100A7E053 /* ChatVC.swift */; };
+		559C2D8C201DDF6B00A7E053 /* ChatInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D8B201DDF6B00A7E053 /* ChatInfoVC.swift */; };
+		559C2D8E201DDF8C00A7E053 /* ChatInfoSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D8D201DDF8C00A7E053 /* ChatInfoSettingsVC.swift */; };
+		559C2D90201DDFA400A7E053 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C2D8F201DDFA400A7E053 /* SettingsVC.swift */; };
+		559C2D92201DDFD600A7E053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C2D91201DDFD500A7E053 /* LaunchScreen.storyboard */; };
+		559C2D94201DE33900A7E053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C2D93201DE33900A7E053 /* Main.storyboard */; };
+		9F6BCB3C452EBA536925EC74 /* Pods_WireUp_FinlandTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC92ED6F84057FAF5A8152CA /* Pods_WireUp_FinlandTests.framework */; };
+		FDF761021D55D55E64A547C7 /* Pods_WireUp_Finland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A91ECE559446CD71D6AAA2 /* Pods_WireUp_Finland.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559C2D32201DD95A00A7E053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559C2D15201DD95900A7E053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559C2D1C201DD95900A7E053;
+			remoteInfo = "WireUp Finland";
+		};
+		559C2D3D201DD95A00A7E053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559C2D15201DD95900A7E053 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559C2D1C201DD95900A7E053;
+			remoteInfo = "WireUp Finland";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		457AA3BB64988964A76394AB /* Pods-WireUp FinlandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireUp FinlandUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WireUp FinlandUITests/Pods-WireUp FinlandUITests.release.xcconfig"; sourceTree = "<group>"; };
+		559C2D1D201DD95900A7E053 /* WireUp Finland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WireUp Finland.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C2D20201DD95900A7E053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559C2D2C201DD95A00A7E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C2D31201DD95A00A7E053 /* WireUp FinlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WireUp FinlandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C2D35201DD95A00A7E053 /* WireUp_FinlandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireUp_FinlandTests.swift; sourceTree = "<group>"; };
+		559C2D37201DD95A00A7E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C2D3C201DD95A00A7E053 /* WireUp FinlandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WireUp FinlandUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559C2D40201DD95A00A7E053 /* WireUp_FinlandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireUp_FinlandUITests.swift; sourceTree = "<group>"; };
+		559C2D42201DD95A00A7E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C2D4E201DD96C00A7E053 /* WireUp Finland.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WireUp Finland.entitlements"; sourceTree = "<group>"; };
+		559C2D4F201DDA3D00A7E053 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		559C2D57201DDB9300A7E053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../WireUp/WireUp/Assets.xcassets; sourceTree = "<group>"; };
+		559C2D59201DDBBF00A7E053 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		559C2D5B201DDBDA00A7E053 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		559C2D5D201DDBFA00A7E053 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		559C2D5F201DDC0E00A7E053 /* EndDateTask .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EndDateTask .swift"; sourceTree = "<group>"; };
+		559C2D61201DDC4E00A7E053 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		559C2D63201DDC9700A7E053 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		559C2D65201DDCC900A7E053 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		559C2D67201DDCE500A7E053 /* SchoolsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsData.swift; sourceTree = "<group>"; };
+		559C2D69201DDCFC00A7E053 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		559C2D6B201DDD1900A7E053 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		559C2D6D201DDD4100A7E053 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		559C2D6F201DDD6700A7E053 /* BGGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGGradientView.swift; sourceTree = "<group>"; };
+		559C2D71201DDD8C00A7E053 /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
+		559C2D73201DDDB200A7E053 /* BGTellMeMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGTellMeMore.swift; sourceTree = "<group>"; };
+		559C2D75201DDDCB00A7E053 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		559C2D77201DDDE000A7E053 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		559C2D79201DDE0300A7E053 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		559C2D7B201DDE2000A7E053 /* GroupTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTaskCell.swift; sourceTree = "<group>"; };
+		559C2D7D201DDE8000A7E053 /* FirstViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewVC.swift; sourceTree = "<group>"; };
+		559C2D7F201DDEB600A7E053 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		559C2D81201DDEE000A7E053 /* TellMeMoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellMeMoreVC.swift; sourceTree = "<group>"; };
+		559C2D83201DDF0200A7E053 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		559C2D85201DDF2200A7E053 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
+		559C2D87201DDF3900A7E053 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		559C2D89201DDF5100A7E053 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		559C2D8B201DDF6B00A7E053 /* ChatInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInfoVC.swift; sourceTree = "<group>"; };
+		559C2D8D201DDF8C00A7E053 /* ChatInfoSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInfoSettingsVC.swift; sourceTree = "<group>"; };
+		559C2D8F201DDFA400A7E053 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		559C2D91201DDFD500A7E053 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559C2D93201DE33900A7E053 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5A96A7D03D659310BA603349 /* Pods_WireUp_FinlandUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireUp_FinlandUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		749C675D649974A7D0185C89 /* Pods-WireUp Finland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireUp Finland.release.xcconfig"; path = "Pods/Target Support Files/Pods-WireUp Finland/Pods-WireUp Finland.release.xcconfig"; sourceTree = "<group>"; };
+		A0A91ECE559446CD71D6AAA2 /* Pods_WireUp_Finland.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireUp_Finland.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8021556D792DADB658F0C9 /* Pods-WireUp FinlandTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireUp FinlandTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WireUp FinlandTests/Pods-WireUp FinlandTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC1F7DE30FA644CFB2017824 /* Pods-WireUp FinlandUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireUp FinlandUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WireUp FinlandUITests/Pods-WireUp FinlandUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC92ED6F84057FAF5A8152CA /* Pods_WireUp_FinlandTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WireUp_FinlandTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46A12AEA3400102761C675A /* Pods-WireUp FinlandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireUp FinlandTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WireUp FinlandTests/Pods-WireUp FinlandTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCFF552C55F55B8F7308F3BB /* Pods-WireUp Finland.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WireUp Finland.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WireUp Finland/Pods-WireUp Finland.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559C2D1A201DD95900A7E053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF761021D55D55E64A547C7 /* Pods_WireUp_Finland.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C2D2E201DD95A00A7E053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6BCB3C452EBA536925EC74 /* Pods_WireUp_FinlandTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C2D39201DD95A00A7E053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541CC3F3B2F3508C7AC7A5BB /* Pods_WireUp_FinlandUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CDC6287F43A8EDAF6CC9221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A91ECE559446CD71D6AAA2 /* Pods_WireUp_Finland.framework */,
+				CC92ED6F84057FAF5A8152CA /* Pods_WireUp_FinlandTests.framework */,
+				5A96A7D03D659310BA603349 /* Pods_WireUp_FinlandUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B3E113B853329519AB6FB73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF552C55F55B8F7308F3BB /* Pods-WireUp Finland.debug.xcconfig */,
+				749C675D649974A7D0185C89 /* Pods-WireUp Finland.release.xcconfig */,
+				AA8021556D792DADB658F0C9 /* Pods-WireUp FinlandTests.debug.xcconfig */,
+				D46A12AEA3400102761C675A /* Pods-WireUp FinlandTests.release.xcconfig */,
+				CC1F7DE30FA644CFB2017824 /* Pods-WireUp FinlandUITests.debug.xcconfig */,
+				457AA3BB64988964A76394AB /* Pods-WireUp FinlandUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		559C2D14201DD95900A7E053 = {
+			isa = PBXGroup;
+			children = (
+				559C2D1F201DD95900A7E053 /* WireUp Finland */,
+				559C2D34201DD95A00A7E053 /* WireUp FinlandTests */,
+				559C2D3F201DD95A00A7E053 /* WireUp FinlandUITests */,
+				559C2D1E201DD95900A7E053 /* Products */,
+				3B3E113B853329519AB6FB73 /* Pods */,
+				1CDC6287F43A8EDAF6CC9221 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		559C2D1E201DD95900A7E053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D1D201DD95900A7E053 /* WireUp Finland.app */,
+				559C2D31201DD95A00A7E053 /* WireUp FinlandTests.xctest */,
+				559C2D3C201DD95A00A7E053 /* WireUp FinlandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559C2D1F201DD95900A7E053 /* WireUp Finland */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D4E201DD96C00A7E053 /* WireUp Finland.entitlements */,
+				559C2D51201DDAE200A7E053 /* Model */,
+				559C2D52201DDAE800A7E053 /* Extension */,
+				559C2D53201DDB0C00A7E053 /* Utilities */,
+				559C2D54201DDB1D00A7E053 /* Services */,
+				559C2D55201DDB3B00A7E053 /* View */,
+				559C2D56201DDB4600A7E053 /* ViewControllers */,
+				559C2D20201DD95900A7E053 /* AppDelegate.swift */,
+				559C2D93201DE33900A7E053 /* Main.storyboard */,
+				559C2D57201DDB9300A7E053 /* Assets.xcassets */,
+				559C2D91201DDFD500A7E053 /* LaunchScreen.storyboard */,
+				559C2D2C201DD95A00A7E053 /* Info.plist */,
+				559C2D4F201DDA3D00A7E053 /* GoogleService-Info.plist */,
+			);
+			path = "WireUp Finland";
+			sourceTree = "<group>";
+		};
+		559C2D34201DD95A00A7E053 /* WireUp FinlandTests */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D35201DD95A00A7E053 /* WireUp_FinlandTests.swift */,
+				559C2D37201DD95A00A7E053 /* Info.plist */,
+			);
+			path = "WireUp FinlandTests";
+			sourceTree = "<group>";
+		};
+		559C2D3F201DD95A00A7E053 /* WireUp FinlandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D40201DD95A00A7E053 /* WireUp_FinlandUITests.swift */,
+				559C2D42201DD95A00A7E053 /* Info.plist */,
+			);
+			path = "WireUp FinlandUITests";
+			sourceTree = "<group>";
+		};
+		559C2D51201DDAE200A7E053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D59201DDBBF00A7E053 /* Group.swift */,
+				559C2D5B201DDBDA00A7E053 /* Message.swift */,
+				559C2D5D201DDBFA00A7E053 /* Task.swift */,
+				559C2D5F201DDC0E00A7E053 /* EndDateTask .swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		559C2D52201DDAE800A7E053 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D61201DDC4E00A7E053 /* UIViewExt.swift */,
+				559C2D63201DDC9700A7E053 /* UIViewControllerExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		559C2D53201DDB0C00A7E053 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D65201DDCC900A7E053 /* Constants.swift */,
+				559C2D67201DDCE500A7E053 /* SchoolsData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		559C2D54201DDB1D00A7E053 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D69201DDCFC00A7E053 /* DataService.swift */,
+				559C2D6B201DDD1900A7E053 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		559C2D55201DDB3B00A7E053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D6D201DDD4100A7E053 /* GradientView.swift */,
+				559C2D6F201DDD6700A7E053 /* BGGradientView.swift */,
+				559C2D71201DDD8C00A7E053 /* BackgroundGradient.swift */,
+				559C2D73201DDDB200A7E053 /* BGTellMeMore.swift */,
+				559C2D75201DDDCB00A7E053 /* UserCell.swift */,
+				559C2D77201DDDE000A7E053 /* GroupCell.swift */,
+				559C2D79201DDE0300A7E053 /* GroupFeedCell.swift */,
+				559C2D7B201DDE2000A7E053 /* GroupTaskCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		559C2D56201DDB4600A7E053 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				559C2D7D201DDE8000A7E053 /* FirstViewVC.swift */,
+				559C2D7F201DDEB600A7E053 /* CreateAccountVC.swift */,
+				559C2D81201DDEE000A7E053 /* TellMeMoreVC.swift */,
+				559C2D83201DDF0200A7E053 /* LoginVC.swift */,
+				559C2D85201DDF2200A7E053 /* CreateGroupsVC.swift */,
+				559C2D87201DDF3900A7E053 /* MenuVC.swift */,
+				559C2D89201DDF5100A7E053 /* ChatVC.swift */,
+				559C2D8B201DDF6B00A7E053 /* ChatInfoVC.swift */,
+				559C2D8D201DDF8C00A7E053 /* ChatInfoSettingsVC.swift */,
+				559C2D8F201DDFA400A7E053 /* SettingsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559C2D1C201DD95900A7E053 /* WireUp Finland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C2D45201DD95A00A7E053 /* Build configuration list for PBXNativeTarget "WireUp Finland" */;
+			buildPhases = (
+				3FCC574881C5E20553BBC353 /* [CP] Check Pods Manifest.lock */,
+				559C2D19201DD95900A7E053 /* Sources */,
+				559C2D1A201DD95900A7E053 /* Frameworks */,
+				559C2D1B201DD95900A7E053 /* Resources */,
+				4A302AA8BCC4D89032330A1C /* [CP] Embed Pods Frameworks */,
+				1B4FE95E93A46AF7A17010FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WireUp Finland";
+			productName = "WireUp Finland";
+			productReference = 559C2D1D201DD95900A7E053 /* WireUp Finland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559C2D30201DD95A00A7E053 /* WireUp FinlandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C2D48201DD95A00A7E053 /* Build configuration list for PBXNativeTarget "WireUp FinlandTests" */;
+			buildPhases = (
+				A7CC495C632B0A2C2B582DCD /* [CP] Check Pods Manifest.lock */,
+				559C2D2D201DD95A00A7E053 /* Sources */,
+				559C2D2E201DD95A00A7E053 /* Frameworks */,
+				559C2D2F201DD95A00A7E053 /* Resources */,
+				A3E1328BF6868DDCAFB74239 /* [CP] Embed Pods Frameworks */,
+				5493BD7D3316EFE45A75903B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559C2D33201DD95A00A7E053 /* PBXTargetDependency */,
+			);
+			name = "WireUp FinlandTests";
+			productName = "WireUp FinlandTests";
+			productReference = 559C2D31201DD95A00A7E053 /* WireUp FinlandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559C2D3B201DD95A00A7E053 /* WireUp FinlandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559C2D4B201DD95A00A7E053 /* Build configuration list for PBXNativeTarget "WireUp FinlandUITests" */;
+			buildPhases = (
+				F0ECB2C979B638CFFC72DE10 /* [CP] Check Pods Manifest.lock */,
+				559C2D38201DD95A00A7E053 /* Sources */,
+				559C2D39201DD95A00A7E053 /* Frameworks */,
+				559C2D3A201DD95A00A7E053 /* Resources */,
+				B2AD088E0DF26B9BCE94AE91 /* [CP] Embed Pods Frameworks */,
+				A18A985C6796C9CF107BA6D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559C2D3E201DD95A00A7E053 /* PBXTargetDependency */,
+			);
+			name = "WireUp FinlandUITests";
+			productName = "WireUp FinlandUITests";
+			productReference = 559C2D3C201DD95A00A7E053 /* WireUp FinlandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559C2D15201DD95900A7E053 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WIreUp;
+				TargetAttributes = {
+					559C2D1C201DD95900A7E053 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					559C2D30201DD95A00A7E053 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559C2D1C201DD95900A7E053;
+					};
+					559C2D3B201DD95A00A7E053 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559C2D1C201DD95900A7E053;
+					};
+				};
+			};
+			buildConfigurationList = 559C2D18201DD95900A7E053 /* Build configuration list for PBXProject "WireUp Finland" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559C2D14201DD95900A7E053;
+			productRefGroup = 559C2D1E201DD95900A7E053 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559C2D1C201DD95900A7E053 /* WireUp Finland */,
+				559C2D30201DD95A00A7E053 /* WireUp FinlandTests */,
+				559C2D3B201DD95A00A7E053 /* WireUp FinlandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559C2D1B201DD95900A7E053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C2D50201DDA3D00A7E053 /* GoogleService-Info.plist in Resources */,
+				559C2D94201DE33900A7E053 /* Main.storyboard in Resources */,
+				559C2D92201DDFD600A7E053 /* LaunchScreen.storyboard in Resources */,
+				559C2D58201DDB9300A7E053 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C2D2F201DD95A00A7E053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C2D3A201DD95A00A7E053 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4FE95E93A46AF7A17010FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WireUp Finland/Pods-WireUp Finland-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FCC574881C5E20553BBC353 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireUp Finland-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A302AA8BCC4D89032330A1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WireUp Finland/Pods-WireUp Finland-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WireUp Finland/Pods-WireUp Finland-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5493BD7D3316EFE45A75903B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WireUp FinlandTests/Pods-WireUp FinlandTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18A985C6796C9CF107BA6D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WireUp FinlandUITests/Pods-WireUp FinlandUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E1328BF6868DDCAFB74239 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WireUp FinlandTests/Pods-WireUp FinlandTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7CC495C632B0A2C2B582DCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireUp FinlandTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2AD088E0DF26B9BCE94AE91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WireUp FinlandUITests/Pods-WireUp FinlandUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0ECB2C979B638CFFC72DE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WireUp FinlandUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559C2D19201DD95900A7E053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C2D7C201DDE2000A7E053 /* GroupTaskCell.swift in Sources */,
+				559C2D7E201DDE8000A7E053 /* FirstViewVC.swift in Sources */,
+				559C2D62201DDC4E00A7E053 /* UIViewExt.swift in Sources */,
+				559C2D60201DDC0E00A7E053 /* EndDateTask .swift in Sources */,
+				559C2D86201DDF2200A7E053 /* CreateGroupsVC.swift in Sources */,
+				559C2D6E201DDD4100A7E053 /* GradientView.swift in Sources */,
+				559C2D7A201DDE0300A7E053 /* GroupFeedCell.swift in Sources */,
+				559C2D78201DDDE000A7E053 /* GroupCell.swift in Sources */,
+				559C2D5E201DDBFA00A7E053 /* Task.swift in Sources */,
+				559C2D68201DDCE500A7E053 /* SchoolsData.swift in Sources */,
+				559C2D5C201DDBDA00A7E053 /* Message.swift in Sources */,
+				559C2D6C201DDD1900A7E053 /* AuthService.swift in Sources */,
+				559C2D80201DDEB600A7E053 /* CreateAccountVC.swift in Sources */,
+				559C2D8C201DDF6B00A7E053 /* ChatInfoVC.swift in Sources */,
+				559C2D72201DDD8C00A7E053 /* BackgroundGradient.swift in Sources */,
+				559C2D76201DDDCB00A7E053 /* UserCell.swift in Sources */,
+				559C2D74201DDDB200A7E053 /* BGTellMeMore.swift in Sources */,
+				559C2D70201DDD6700A7E053 /* BGGradientView.swift in Sources */,
+				559C2D21201DD95900A7E053 /* AppDelegate.swift in Sources */,
+				559C2D64201DDC9700A7E053 /* UIViewControllerExt.swift in Sources */,
+				559C2D88201DDF3900A7E053 /* MenuVC.swift in Sources */,
+				559C2D82201DDEE000A7E053 /* TellMeMoreVC.swift in Sources */,
+				559C2D5A201DDBBF00A7E053 /* Group.swift in Sources */,
+				559C2D66201DDCC900A7E053 /* Constants.swift in Sources */,
+				559C2D6A201DDCFC00A7E053 /* DataService.swift in Sources */,
+				559C2D8E201DDF8C00A7E053 /* ChatInfoSettingsVC.swift in Sources */,
+				559C2D90201DDFA400A7E053 /* SettingsVC.swift in Sources */,
+				559C2D8A201DDF5100A7E053 /* ChatVC.swift in Sources */,
+				559C2D84201DDF0200A7E053 /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C2D2D201DD95A00A7E053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C2D36201DD95A00A7E053 /* WireUp_FinlandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559C2D38201DD95A00A7E053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559C2D41201DD95A00A7E053 /* WireUp_FinlandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559C2D33201DD95A00A7E053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559C2D1C201DD95900A7E053 /* WireUp Finland */;
+			targetProxy = 559C2D32201DD95A00A7E053 /* PBXContainerItemProxy */;
+		};
+		559C2D3E201DD95A00A7E053 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559C2D1C201DD95900A7E053 /* WireUp Finland */;
+			targetProxy = 559C2D3D201DD95A00A7E053 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		559C2D43201DD95A00A7E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		559C2D44201DD95A00A7E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559C2D46201DD95A00A7E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFF552C55F55B8F7308F3BB /* Pods-WireUp Finland.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WireUp Finland/WireUp Finland.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYH742Z6U9;
+				INFOPLIST_FILE = "WireUp Finland/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wireup.WireUp-Finland";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		559C2D47201DD95A00A7E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749C675D649974A7D0185C89 /* Pods-WireUp Finland.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "WireUp Finland/WireUp Finland.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYH742Z6U9;
+				INFOPLIST_FILE = "WireUp Finland/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wireup.WireUp-Finland";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		559C2D49201DD95A00A7E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA8021556D792DADB658F0C9 /* Pods-WireUp FinlandTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYH742Z6U9;
+				INFOPLIST_FILE = "WireUp FinlandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wireup.WireUp-FinlandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WireUp Finland.app/WireUp Finland";
+			};
+			name = Debug;
+		};
+		559C2D4A201DD95A00A7E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46A12AEA3400102761C675A /* Pods-WireUp FinlandTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYH742Z6U9;
+				INFOPLIST_FILE = "WireUp FinlandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wireup.WireUp-FinlandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WireUp Finland.app/WireUp Finland";
+			};
+			name = Release;
+		};
+		559C2D4C201DD95A00A7E053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1F7DE30FA644CFB2017824 /* Pods-WireUp FinlandUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYH742Z6U9;
+				INFOPLIST_FILE = "WireUp FinlandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wireup.WireUp-FinlandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WireUp Finland";
+			};
+			name = Debug;
+		};
+		559C2D4D201DD95A00A7E053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457AA3BB64988964A76394AB /* Pods-WireUp FinlandUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GYH742Z6U9;
+				INFOPLIST_FILE = "WireUp FinlandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wireup.WireUp-FinlandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WireUp Finland";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559C2D18201DD95900A7E053 /* Build configuration list for PBXProject "WireUp Finland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C2D43201DD95A00A7E053 /* Debug */,
+				559C2D44201DD95A00A7E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C2D45201DD95A00A7E053 /* Build configuration list for PBXNativeTarget "WireUp Finland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C2D46201DD95A00A7E053 /* Debug */,
+				559C2D47201DD95A00A7E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C2D48201DD95A00A7E053 /* Build configuration list for PBXNativeTarget "WireUp FinlandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C2D49201DD95A00A7E053 /* Debug */,
+				559C2D4A201DD95A00A7E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559C2D4B201DD95A00A7E053 /* Build configuration list for PBXNativeTarget "WireUp FinlandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559C2D4C201DD95A00A7E053 /* Debug */,
+				559C2D4D201DD95A00A7E053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559C2D15201DD95900A7E053 /* Project object */;
+}
